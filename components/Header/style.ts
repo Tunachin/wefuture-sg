@@ -100,8 +100,8 @@ export const HeaderView = styled.div`
       padding: 14px;
 
       .logo {
-        width: 141px;
-        height: 30px;
+        width: 180px;
+        height: 39px;
       }
 
       .closed {
@@ -142,8 +142,8 @@ export const HeaderView = styled.div`
       }
 
       .logo {
-        width: 141px;
-        height: 30px;
+        width: 180px;
+        height: 39px;
       }
 
       height: 58px;
