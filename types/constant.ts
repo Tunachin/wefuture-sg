@@ -1,0 +1,2 @@
+export const LANG_LOCAL_KEY = "LANG_LOCAL_KEY";
+export const THEME_LOCAL_KEY = "ADA_THEME_LOCAL_KEY";

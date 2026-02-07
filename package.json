@@ -1,0 +1,62 @@
+{
+  "name": "starter-next-ts-template",
+  "description": "A Mesh starter template",
+  "version": "0.1.0",
+  "private": true,
+  "author": "MeshJS",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "next dev -p 3099",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "@studio-freight/lenis": "^1.0.0",
+    "@types/styled-components": "^5.1.26",
+    "assert": "^2.0.0",
+    "classnames": "^2.3.2",
+    "gsap": "^3.11.4",
+    "i18next": "^22.4.10",
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^12.1.5",
+    "react-redux": "^8.0.5",
+    "splitting": "^1.0.6",
+    "styled-components": "^5.3.6",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "8.4.0",
+    "@types/lodash": "^4.14.191",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.8",
+    "@typescript-eslint/eslint-plugin": "5.36.1",
+    "@typescript-eslint/parser": "5.36.1",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "husky": "8.0.1",
+    "rollup": "2.79.0",
+    "tslib": "2.4.0",
+    "typescript": "4.8.4",
+    "vite": "3.1.4",
+    "vite-plugin-eslint": "1.8.1",
+    "vite-plugin-wasm": "2.1.0",
+    "vitest": "0.22.0"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "http2": false,
+    "net": false,
+    "tls": false,
+    "dns": false
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
